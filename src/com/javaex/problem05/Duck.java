@@ -5,7 +5,7 @@ public class Duck implements Soundable {
 	
 	@Override
 	public String sound() {
-		return "ê½¥ê½¥";
+		return "²Ð²Ð";
 	}
 
 }

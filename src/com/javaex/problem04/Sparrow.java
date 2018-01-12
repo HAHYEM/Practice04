@@ -6,17 +6,17 @@ public class Sparrow extends Bird {
 
 	@Override
 	public void showName() {
-		System.out.println("ì°¸ìƒˆì˜ ì´ë¦„ì€"+name+ " ì…ë‹ˆë‹¤");
+		System.out.println("Âü»õÀÇ ÀÌ¸§Àº"+name+ " ÀÔ´Ï´Ù");
 	}
 
 	@Override
 	public void sing() {
-		System.out.println("ì°¸ìƒˆ("+name+")ê°€ ì†Œë¦¬ë‚´ì–´ ì›ë‹ˆë‹¤");
+		System.out.println("Âü»õ("+name+")°¡ ¼Ò¸®³»¾î ¿ó´Ï´Ù");
 	}
 
 	@Override
 	public void fly() {
-		System.out.println("ì°¸ìƒˆ("+name+")ê°€ ë‚ ì•„ë‹¤ë‹™ë‹ˆë‹¤");
+		System.out.println("Âü»õ("+name+")°¡ ³¯¾Æ´Ù´Õ´Ï´Ù");
 	}
 
 	protected String getName() {

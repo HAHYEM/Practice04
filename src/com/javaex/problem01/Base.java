@@ -4,7 +4,7 @@ public class Base {
 
     public void service(String state) {
 
-        if (state.equals("ë‚®")) {
+        if (state.equals("³·")) {
             day();
         } else {
             night();
@@ -12,7 +12,7 @@ public class Base {
     }
 
     public void day() {
-        System.out.println("ë‚®");
+        System.out.println("³·");
     }
 
     public void night() {

@@ -12,10 +12,7 @@ public class Depart extends Employee {
 
 	@Override
 	public void getInformation() {
-		System.out.println("Ïù¥Î¶Ñ: " + getName() + "  Ïó∞Î¥â: " + getSalary() + "  Î∂ÄÏÑú: " + department);
+		System.out.println("¿Ã∏ß: " + getName() + "  ø¨∫¿: " + getSalary() + "  ∫Œº≠: " + department);
 	}
-
-	
-    
 
 }

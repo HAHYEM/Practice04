@@ -5,6 +5,6 @@ public class Dog implements Soundable {
 	
 	@Override
 	public String sound() {
-		return "ë©ë©";
+		return "¸Û¸Û";
 	}
 }

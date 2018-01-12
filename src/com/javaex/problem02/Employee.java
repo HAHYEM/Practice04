@@ -30,7 +30,7 @@ public class Employee {
     }
 
     public void getInformation() {
-        System.out.println("Ïù¥Î¶Ñ:" + name + "Ïó∞Î¥â:" + salary);
+        System.out.println("¿Ã∏ß:" + name + "ø¨∫¿:" + salary);
     }
 
 }

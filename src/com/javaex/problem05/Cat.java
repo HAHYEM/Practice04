@@ -5,7 +5,7 @@ public class Cat implements Soundable {
 
 	@Override
 	public String sound() {
-		return "ì•¼ì˜¹";
+		return "¾ß¿Ë";
 	}
 	
 

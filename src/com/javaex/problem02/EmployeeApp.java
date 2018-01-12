@@ -4,7 +4,7 @@ public class EmployeeApp {
 
     public static void main(String[] args) {
 
-        Employee pt = new Depart( "í™ê¸¸ë™", 5000, "ê°œë°œë¶€" );
+        Employee pt = new Depart( "È«±æµ¿", 5000, "°³¹ßºÎ" );
         pt.getInformation();
     }
 

@@ -4,7 +4,7 @@ public class MusicPhone extends Phone{
     
     public void execute(String str){
         
-        if("ìŒì•…".equals(str)){
+        if("À½¾Ç".equals(str)){
             playMusic();
         }else{
             super.execute(str);
@@ -13,6 +13,6 @@ public class MusicPhone extends Phone{
     }
     
     protected void playMusic(){
-        System.out.println("Mp3í”Œë ˆì´ì–´ì—ì„œ ìŒì•…ì¬ìƒ");
+        System.out.println("Mp3ÇÃ·¹ÀÌ¾î¿¡¼­ À½¾ÇÀç»ı");
     }
 }

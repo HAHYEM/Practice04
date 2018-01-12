@@ -5,9 +5,9 @@ public class PhoneApp {
     public static void main(String[] args) {
 
         Phone phone = new SmartPhone();
-        phone.execute("ì•±");
-        phone.execute("ìŒì•…");
-        phone.execute("í†µí™”");
+        phone.execute("¾Û");
+        phone.execute("À½¾Ç");
+        phone.execute("ÅëÈ­");
        
         
     }

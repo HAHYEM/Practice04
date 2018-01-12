@@ -6,16 +6,16 @@ public class Duck extends Bird {
 	
    
 	public void sing() {
-		System.out.println("ì˜¤ë¦¬("+name+")ê°€ ì†Œë¦¬ë‚´ì–´ ì›ë‹ˆë‹¤");
+		System.out.println("¿À¸®("+name+")°¡ ¼Ò¸®³»¾î ¿ó´Ï´Ù");
 
     }
 
     public void fly() {
-    	System.out.println("ì˜¤ë¦¬("+name+")ê°€ ë‚ ì§€ ì•ŠìŠµë‹ˆë‹¤");
+    	System.out.println("¿À¸®("+name+")°¡ ³¯Áö ¾Ê½À´Ï´Ù");
     }
     
     public void showName() {
-    	System.out.println("ì˜¤ë¦¬ì˜ ì´ë¦„ì€"+name+ " ì…ë‹ˆë‹¤");
+    	System.out.println("¿À¸®ÀÇ ÀÌ¸§Àº"+name+ " ÀÔ´Ï´Ù");
     }
 
 	protected String getName() {

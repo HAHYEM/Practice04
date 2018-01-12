@@ -3,20 +3,19 @@ package com.javaex.problem03;
 public class SmartPhone extends MusicPhone {
 
 	
-	
 	@Override
 	public void execute(String str) {
-		if(str.equals("ì•±")) {
-			System.out.println("ì•±ì‹¤í–‰");
+		if(str.equals("¾Û")) {
+			System.out.println("¾Û½ÇÇà");
 			playMusic();
 			call();
 		}
 	}
     
     public void call() {
-    	System.out.println("í†µí™”ê¸°ëŠ¥ ì‹œì‘");
+    	System.out.println("ÅëÈ­±â´É ½ÃÀÛ");
     }
     public void playMusic() {
-    	System.out.println("ë‹¤ìš´ë¡œë“œí•´ì„œ ìŒì•…ì¬ìƒ");
+    	System.out.println("´Ù¿î·ÎµåÇØ¼­ À½¾ÇÀç»ı");
     }
 }

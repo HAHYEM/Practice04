@@ -3,7 +3,7 @@ package com.javaex.problem01;
 public class MyBase extends Base{
 
     public void day() {
-    	System.out.println("ë‚®ì—ëŠ” ì—´ì‹¬íˆ ì¼í•˜ì");
+    	System.out.println("³·¿¡´Â ¿­½ÉÈ÷ ÀÏÇÏÀÚ");
     }
     public void night() {
     	System.out.println("night");
@@ -11,12 +11,12 @@ public class MyBase extends Base{
     
 	@Override
 	public void service(String state) {
-		 if (state.equals("ë‚®")) {
+		 if (state.equals("³·")) {
 	            day();
-	        } else if(state.equals("ë°¤")){
+	        } else if(state.equals("¹ã")){
 	            night();
 	        }else {
-	        	System.out.println("ì˜¤í›„ë„ ë‚®ê³¼ ë§ˆì°¬ê°€ì§€ë¡œ ì¼í•´ì•¼ í•©ë‹ˆë‹¤.");
+	        	System.out.println("¿ÀÈÄµµ ³·°ú ¸¶Âù°¡Áö·Î ÀÏÇØ¾ß ÇÕ´Ï´Ù.");
 	        }
 	}
 }
